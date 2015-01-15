@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,800' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+  <div class="form-wrapper">
+    <h2>New User Form</h2>
+      <form class="form" method="post">
+        <input type="text" name="name" id="name" class="form-item" placeholder="Full Name" required>
+        <input type="email" name="email" id="email" class="form-item" placeholder="Email Address" required />
+        <input type="tel" pattern="[789][0-9]{9}"  name="phone number" id="phone number" class="form-item" placeholder="Phone-Number" required />
+        <textarea class="sign-up-form-textarea form-item" placeholder="Put Your Bio here"></textarea>
+
+
+
+        <label for="occupation-dropdown">Occupation</label>
+        <select id="occupation-dropdown" class="form-item">
+          <option value="doctor">Doctor</option>
+          <option value="poet">Poet</option>
+          <option value="rock-star">Rock Star</option>
+          <option value="firetruck">Firetruck</option>
+        </select>
+
+
+        <label for="male">Male</label>
+        <input type="radio" name="sex" value="male" id="male" class="radios">
+        <label for="female">Female</label>
+        <input type="radio" name="sex" value="female" id="female" ><br>
+
+        <h4>How do you like your spam?</h4>
+
+
+        <div class="toggle">
+          <label for="notifications">Text</label>
+          <input type="checkbox" id="notifications" value="text" name="notifications-preference" class="toggles toggle-switch">
+        </div>
+        <div class="toggle">
+        <label for="notifications">Email</label>
+        <input type="checkbox" id="notifications" value="email" name="notifications-preference" class="toggles toggle-switch"><br>
+        </div>
+
+        <h4>Do you agree to the terms and conditions? They are berry berry strict.</h4>
+        <input type="checkbox" id="agreement" value="agreed">
+        <label for="agreement">Agree</label><br>
+
+        <input type="submit" class="submit-button" value="SUBMIT">
+    </div>
+
+
+</body>

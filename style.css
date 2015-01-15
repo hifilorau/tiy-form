@@ -1,0 +1,129 @@
+.form-item, .submit-button {
+  display: block;
+  padding: 1em;
+  margin: 1em .5em;
+  width: 15em;
+  font-size: 1.1em;
+  border-radius: .3em;
+  background: linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%););
+
+}
+
+.radios {
+  font-size: 1.1em;
+  border-radius: .3em;
+
+
+}
+
+input[type="text"], input[type="checkbox"], textarea, 
+{
+  font-family: 'Open-Sans', sans-serif;
+  background-color: lightyellow;
+  cursor: pointer;
+}
+
+input:invalid {
+  background-color: #ffdddd;
+}
+
+select {
+  cursor: pointer;
+}
+
+select.option {
+  font-size: .8em;
+}
+
+.form-wrapper {
+  border: 2px solid lightblue;
+  max-width: 25em;
+  padding: 2em;
+  margin: 5em auto;
+  background-size: cover;
+  background-color: #E8F3FB;
+  border-radius: .2em;
+
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+label {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.submit-button {
+  background: blue;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1em;
+  margin: 2em auto;
+  letter-spacing: .05em;
+  font-weight: 600;
+  border: none;
+}
+
+.submit-button:hover{
+  color: blue;
+  background: lightyellow;
+  cursor: pointer
+}
+
+textarea {
+  border: none;
+  box-shadow:inset 0 0 10px #000;
+  background-color:#ffdddd;
+}
+
+
+
+/*
+.toggles {
+  position: absolute;
+  margin-left: -999px;
+  visibility: hidden;
+}
+
+input.toggles + label {
+  padding: 2px;
+  width: 120px;
+  height: 60px;
+  background-color: #dddddd;
+  border-radius: 60px;
+}
+
+}
+input.toggle-switch + label:before,
+input.toggle-switch + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+input.toggle-switch + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+
+input.toggle-switch + label:after {
+  width: 58px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: margin 0.4s;
+}
+input.toggle-switch:checked + label:before {
+  background-color: #8ce196;
+}
+input.toggle-switch:checked + label:after {
+  margin-left: 60px;
+}*/
