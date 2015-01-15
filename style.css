@@ -5,7 +5,7 @@
   width: 15em;
   font-size: 1.1em;
   border-radius: .3em;
-  background: linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%););
+
 
 }
 
@@ -16,16 +16,14 @@
 
 }
 
-input[type="text"], input[type="checkbox"], textarea, 
+input[type="text"], input[type="checkbox"], input:required
 {
   font-family: 'Open-Sans', sans-serif;
   background-color: lightyellow;
   cursor: pointer;
 }
 
-input:invalid {
-  background-color: #ffdddd;
-}
+
 
 select {
   cursor: pointer;
@@ -77,7 +75,7 @@ label {
 textarea {
   border: none;
   box-shadow:inset 0 0 10px #000;
-  background-color:#ffdddd;
+  background-color:lightyellow;
 }
 
 
