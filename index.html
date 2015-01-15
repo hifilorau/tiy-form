@@ -34,19 +34,23 @@
 
         <h4>How do you like your spam?</h4>
 
-
-        <div class="toggle">
-          <label for="notifications">Text</label>
-          <input type="checkbox" id="notifications" value="text" name="notifications-preference" class="toggles toggle-switch">
+        <h5>Text</h5>
+        <div class="checkbox-div">
+          <input type="checkbox" id="notifications-text" value="text" name="notifications-preference" class="regular-checkbox" checked>
+          <label for="notifications-text" class="styled-label"></label>
         </div>
-        <div class="toggle">
-        <label for="notifications">Email</label>
-        <input type="checkbox" id="notifications" value="email" name="notifications-preference" class="toggles toggle-switch"><br>
+        <h5>Email</h5>
+        <div class="checkbox-div">
+          <input type="checkbox" id="notifications-email" value="email" name="notifications-preference" class="regular-checkbox" checked>
+          <label for="notifications-email" class="styled-label"></label>
         </div>
 
-        <h4>Do you agree to the terms and conditions? They are berry berry strict.</h4>
-        <input type="checkbox" id="agreement" value="agreed">
-        <label for="agreement">Agree</label><br>
+        <div class="agreement-div">
+        <h4>Do you agree to the terms and conditions? They are berry berry strict.</h4><br>
+        <input type="checkbox" id="agreement" value="agreed" class="regular-checkbox">
+        <label for="agreement"></label><br>
+        <h6>Check to agree</h6>
+        </div>
 
         <input type="submit" class="submit-button" value="SUBMIT">
     </div>
