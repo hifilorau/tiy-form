@@ -27,21 +27,25 @@
         </select>
 
 
-        <label for="male">Male</label>
-        <input type="radio" name="sex" value="male" id="male" class="radios">
-        <label for="female">Female</label>
-        <input type="radio" name="sex" value="female" id="female" ><br>
+        <div class="radio-div">
+          <h5>Male</h5>
+          <input type="radio" name="sex" value="male" id="male" class="radios">
+          <label for="male"></label>
+          <h5>Female</h5>
+          <input type="radio" name="sex" value="female" id="female" class="radios" >
+          <label for="female"></label>
+        </div>
 
         <h4>How do you like your spam?</h4>
 
         <h5>Text</h5>
         <div class="checkbox-div">
-          <input type="checkbox" id="notifications-text" value="text" name="notifications-preference" class="regular-checkbox" checked>
+          <input type="checkbox" id="notifications-text" value="text" name="notifications-preference" class="toggle-switch" checked>
           <label for="notifications-text" class="styled-label"></label>
         </div>
         <h5>Email</h5>
         <div class="checkbox-div">
-          <input type="checkbox" id="notifications-email" value="email" name="notifications-preference" class="regular-checkbox" checked>
+          <input type="checkbox" id="notifications-email" value="email" name="notifications-preference" class="toggle-switch" checked>
           <label for="notifications-email" class="styled-label"></label>
         </div>
 
